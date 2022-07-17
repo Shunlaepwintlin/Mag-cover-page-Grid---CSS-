@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SLPL</title>
+<style>
+        body {
+          margin: 0;
+        }
+        .grid-container {
+          width: 100vw;
+          height: 100vh;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: 0.75fr 1fr 1fr ;
+
+          gap: 30px;
+          background-color: #ffffff;
+          padding: 50px 200px;
+          box-sizing: border-box;
+
+          font-family: 'Franklin Gothic Medium';
+        }
+
+        .grid-container > div {
+          background-color:rgb(255, 255, 255);
+          padding: 10px;
+        }
+        .circle-text {
+          border-radius: 50%;
+          padding: 10px;
+          background: #11bde8;
+          color: white;
+          font-size: 2em;
+        }
+        .text-blue{
+          color:#11bde8;
+        }
+        .item1 { 
+          grid-column-start: 1;
+          grid-column-end: 4;
+          font-size: 40px;
+          word-spacing: 10px;
+          border-color: #11bde8;
+          border-style: solid;
+          border-width: 13px 0 0;
+        }
+        .item2 { 
+          grid-column-start: 4;
+          grid-column-end: 5;
+          grid-row-start: 1;
+          grid-row-end: 3;
+          padding-left: 100px !important;
+         }
+        .item3 { 
+          grid-column-start:1;
+          grid-column-end: 2;
+          border: 1px solid #000;
+          padding-right: 12px;
+          border-width: 13px 0 0;
+        }
+        .item4 { 
+          grid-column-start: 2;
+          grid-column-end:4;
+         }
+        .item5 { 
+          grid-column-start: 1;
+          grid-column-end: 2;
+          grid-row-start: 3;
+          grid-row-end: 4;
+         }
+        .item6 { 
+          grid-column-start: 2;
+          grid-column-end: 4;
+          grid-row-start: 3;
+          grid-row-end: 4;
+         }
+        .foot-text{
+            width: 50%;
+            text-align: left;
+        }
+ </style>
+</head>
+<body>
+    <div class="grid-container">
+      <div class="item1">
+        <b>
+          <span style="color:#4adbff">3 THINGS </span>WE LEARNT AT <span style="color:#4adbff">SCPW 2017</span>
+        </b>
+      </div>
+      <div class="item2">
+        <p>
+          <span class="circle-text">02</span>
+        </p>
+        <p class="text-blue">We're building tomorrow's builders</p>
+        <p>Youths are the answer to our future, and what better time to help builde their sillls than now?</p>
+      </div>
+      <div class="item3">
+        <span class="text-blue">
+          BCA's seventh Singapore Construction Productivity Week (SCPW) brought over 12,000 membersof the built environment sector closer to the future of constuction than ever before <em>Pilars</em> gives you a summary insights from the event.
+        </span>
+      </div>
+      <div class="item5">
+        <p>
+          <span class="circle-text">&n01</span>
+        </p>
+        <p class="text-blue">The foundation has been laid.</p>
+        <p>Now it's up to us to make it even stronger</p>
+       </div>
+      <div class="item4">
+          <div>
+            <figure>
+              <img src="images/Skyline.jpg" width="100%"/>
+              <figcaption>Fibbon-cutting ceremony by Minister Desmond Lee and BCA CEO, Mr Hugh Lim to launch BuildTech Asia 24 October 2017</figcaption>
+            </figure>
+          </div>
+      </div>
+      <div class="item6">
+        <div style="float:left;" class="foot-text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum in, distinctio iusto asperiores officiis reprehenderit quis optio eos id! Odit optio numquam consequuntur minus aliquid cum ex similique, fuga voluptas at, atque necessitatibus voluptatum eligendi rerum laudantium ad assumenda suscipit id possimus mollitia eius magnam, doloribus consequatur. Aut, vero non?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
+          </p>
+        </div>
+        <div style="float:right;" class="foot-text">
+          <p style="margin-left: 20px">
+             ducimus omnis doloribus minus quod, porro magni molestias libero. Quidem assumenda eos atque quae explicabo harum doloremque et! Voluptates minima mollitia saepe facere reiciendis ratione accusantium quae cumque veniam alias, dolorum magni optio laudantium provident obcaecati ipsam? Doloribus voluptates iste molestias.
+          </p>
+        </div>
+        <div style="clear:both;"/>
+      </div>
+    </div>
+  </body>
+</html>
